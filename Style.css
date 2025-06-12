@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('fundo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  text-align: center;
+  color: black;
+}
+
+canvas {
+  background-color: black;
+  border: 5px solid green;
+  display: block;
+  margin: 20px auto;
+}
+
+#painel-controle {
+  margin-top: 20px;
+}
